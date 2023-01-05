@@ -39,6 +39,18 @@ editor: visual
 <h2>`r fontawesome::fa("link", "white")`   [howardmann.us](http://howardmann.us)</h2>
 
 ![](images/UhealthLogo.jpg){.absolute top="550" right="120" width="325"}
+---
+
+## Instructions for viewing the cases
+<br>
+
+- use your keyboard arrow keys to navigate through the slides
+- you can view the presentation in full screen mode by hitting `f` on your keyboard; hit `esc` to exit
+- mouse-click through the Tabs; start and end each case with the `Presentation` Tab
+- there is a menu ![](images/menu-icon.jpg){.center} icon bottom-left that you can use to navigate as well.
+- please volunteer to discuss a case(s) during the conference!
+
+
 
 ## Case one
 
