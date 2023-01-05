@@ -1,0 +1,389 @@
+---
+format: 
+  revealjs:
+    logo: images/circle-cropped.png
+    link-external-newwindow: true
+    theme: [dark, mycustom.scss]
+    slide-number: c/t
+    code-line-numbers: false
+    chalkboard: true
+editor: visual
+---
+
+<h1>Noon Case Conference--- January 10th, 2023</h1>
+
+<br>
+
+<header>
+
+<center>
+
+<h2>*The middle of the chest*</h2>
+
+</center>
+
+</header>
+
+<hr>
+
+<br>
+
+<h2>Howard Mann, M.D.</h2>
+
+<h2>Department of Radiology and Imaging Sciences</h2>
+
+<br><br><br><br>
+
+<h2>`r fontawesome::fa("envelope", "white")`   howard.mann\@utah.edu</h2>
+
+<h2>`r fontawesome::fa("link", "white")`   [howardmann.us](http://howardmann.us)</h2>
+
+![](images/UhealthLogo.jpg){.absolute top="550" right="120" width="325"}
+
+## Case one
+
+::: panel-tabset
+### Presentation
+
+A very astute observer questioned a finding on chest radiography.
+
+A CT was subsequently obtained.
+
+### Imaging
+
+::: columns
+::: {.column width="60%"}
+![](images/PA-1.jpg){width="95%"}
+:::
+
+::: {.column width="40%"}
+<br> <br>
+
+![](images/CT-1.jpg){width="100%"}
+
+Discuss...
+:::
+:::
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case two
+
+::: panel-tabset
+### Presentation
+
+An observer noticed rightward deviation of the trachea on chest radiography and an abnormal right mediastinal-lung interface.
+
+A CT was performed.
+
+
+
+### CT
+
+::: {.callout-note appearance="minimal"}
+Hint: There is no differential diagnosis.
+:::
+
+::: columns
+::: {.column width="50%"}
+![](images/CT-2.jpg){width="100%"}
+:::
+
+::: {.column width="50%"}
+![](images/CT-2a.jpg){width="100%"}
+
+
+:::
+:::
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case three
+
+::: panel-tabset
+### Presentation
+
+Chest radiography was performed for chest discomfort.
+
+Review the imaging and then...
+
+Address the following questions one at a time in your response:
+
+<br>
+
+::: incremental
+-   Where is the abnormality located ? <br>
+-   Offer a (limited!) Differential Diagnosis <br>
+-   What single imaging procedure will be most informative ?
+:::
+
+### Imaging
+
+![](images/CXR-3.jpg){width="90%" fig-align="center"}
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case four
+
+::: panel-tabset
+### Presentation
+
+A CTPA performed for possible acute pulmonary embolism did not show emboli.
+
+Again, address the following one at a time in your response:
+
+<br>
+
+::: incremental
+-   What is present ?
+
+-   Offer a limited Differential Diagnosis.
+
+-   Dare to offer a (confident!) diagnosis.
+:::
+
+### CT
+
+![](images/CT-4.jpg){fig-align="center"}
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case five
+
+::: panel-tabset
+### Presentation
+
+This CT was performed in a 35-year-old male with acute, central chest pain. He is convinced he is having a heart attack
+
+A high-sensitivity troponin assay is "negative."
+
+Review the CT and address the following one at a time in your response:
+
+<br>
+
+::: incremental
+-   What finding is not present ?
+
+-   What finding is present ?
+
+-   Offer a certain explanation for the pain.
+:::
+
+### CT
+
+<br>
+
+![](images/CT-5.jpg)
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case six
+
+::: panel-tabset
+### Presentation
+
+A CTPA in a 45-year-old woman did not reveal pulmonary emboli.
+
+Something unexpected was perceived.
+
+What ?
+
+What is a sufficient explanation ?
+
+If you could see the patient, you would observe this:
+
+![](images/eyes.jpg){width="40%" fig-align="center"}
+
+### CTPA
+
+<br>
+
+![](images/CT-6.jpg){fig-align="center"}
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case seven
+
+::: panel-tabset
+### Presentation
+
+Persistent chest pain in a 28-year-old patient.
+
+### Radiography
+
+::: columns
+::: {.column width="40%"}
+-   describe the findings
+
+-   where is the abnormality located ?
+
+-   provide a limited differential diagnosis
+
+-   if this were a male instead, what should be further evaluated by means of physical exam and an ultrasound as part of the work-up?
+:::
+
+::: {.column width="60%"}
+![](images/CXR-7.jpg){width="100%" fig-align="center"}
+:::
+:::
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case eight
+
+::: panel-tabset
+### Presentation
+
+An abnormal opacity was perceived on frontal chest radiography---in the right-cardiophrenic region effacing the usual lateral margin of the inferior right atrium.
+
+A CT was performed.
+
+The radiograph is not available for review.
+
+### CT
+
+::: columns
+::: {.column width="30%"}
+-   describe the findings
+
+What is *the* diagnosis ?
+
+(A Differential Diagnosis is not relevant.)
+:::
+
+::: {.column width="70%"}
+![](images/CT-8.jpg){width="100%" fig-align="center"}
+:::
+:::
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case nine
+
+::: panel-tabset
+### Presentation
+
+The patient complained of mild chest pain at a post-operative clinic visit. A mediastinoscopy (to biopsy right paratracheal and ? subcarinal nodes) was performed three weeks before.
+
+He does not have a fever.
+
+### CT
+
+-   describe the findings
+
+-   provide a very limited Differential Diagnosis -- if you can!
+
+![](images/CT-9.jpg){width="100%" fig-align="center"}
+
+View also the image in the next Tab.
+
+### CT-zoomed
+
+![](images/CT-9-zoomed.jpg){width="60%" fig-align="center"}
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case ten
+::: panel-tabset
+### Presentation
+
+This is an employer-mandated, pre-employment radiograph.
+
+Offer one---very likely---diagnosis.
+
+### Radiograph
+
+![](images/CXR-10.jpg){width="65%" fig-align="center"}
+
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case eleven
+::: panel-tabset
+### Presentation
+
+This patient reports dysphagia of years-long duration.
+
+Describe the findings and suggest the most likely diagnosis.
+
+What (old-fashioned) procedure would you suggest to verify your diagnosis ?
+
+### Radiograph
+
+![](images/CXR-11.jpg){width="60%" fig-align="center"}
+
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case twelve
+::: panel-tabset
+### Presentation
+
+This patient is asymptomatic at present.
+
+The CT was done after someone described an abnormality on a radiographic examination.
+
+### Imaging
+
+::: columns
+::: {.column width="60%"}
+![](images/CXR-12.jpg){width="100%"}
+:::
+
+::: {.column width="40%"}
+![](images/CT-12.jpg){width="100%"}
+
+Is there really a Differential Diagnosis ?
+:::
+:::
+
+
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+## Case thirteen
+::: panel-tabset
+### Presentation
+
+The patient reports chest pain of several months' duration.
+
+### Radiography
+
+![](images/CXR-13.jpg){width="90%" fig-align="center"}
+
+### CT
+
+::: columns
+::: {.column width="40%"}
+Share your thoughts.
+
+Be bold and suggest one confident diagnosis.
+
+It's the last case!
+:::
+
+::: {.column width="60%"}
+![](images/CT-13.jpg){width="80%" fig-align="center"}
+
+
+:::
+:::
+
+
+
+<!----------------------------- CLOSE PANELSET ----------------------------->
+:::
+
+

@@ -1,0 +1,49 @@
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
+
+
+
+/*-- scss:defaults --*/
+
+// Background of the presentation 
+$backgroundColor: #002d51;
+
+// Headings
+$headingFont: 'Abhaya Libre', Impact, sans-serif;
+$heading1Size: 	1.6em !important;
+$heading2Size: 	1.4em !important;
+$heading3Size: 	0.8em !important;
+$heading4Size: 	0.6em !important;
+
+$headingTextTransform: none;
+
+// Primary/body text
+$mainFont: 'Jost', sans-serif;
+$mainFontSize: 30px;
+
+// Links and actions
+$linkColor: #0d757b;
+$linkColorHover: darken( $linkColor, 10% );
+
+// Code box background color and font size
+
+$code-block-bg: #9eb4cc;
+$code-block-font-size: 0.75em;
+$code-block-border-color: #d5dfe6;
+
+// start using css here
+
+
+
+.reveal .slide-logo {
+  height: 50px !important;
+  width: 50px!important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+.reveal .footer {
+  font-size: 0.35em !important;
+  text-align: right !important;
+}
