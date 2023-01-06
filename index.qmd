@@ -30,7 +30,6 @@ editor: visual
 
 <h2>Howard Mann, M.D.</h2>
 
-<h2>Department of Radiology and Imaging Sciences</h2>
 
 <br><br><br><br>
 
@@ -38,7 +37,7 @@ editor: visual
 
 <h2>`r fontawesome::fa("link", "white")`   [howardmann.us](http://howardmann.us)</h2>
 
-![](images/UhealthLogo.jpg){.absolute top="550" right="120" width="325"}
+![](images/UhealthLogo.png){.absolute top="250" right="120" width="300"}
 ---
 
 ## Instructions for viewing the cases
