@@ -4,6 +4,8 @@ format:
     logo: images/circle-cropped.png
     link-external-newwindow: true
     theme: [dark, mycustom.scss]
+    width: 1600
+    height: 900
     slide-number: c/t
     code-line-numbers: false
     chalkboard: true
@@ -32,26 +34,25 @@ editor: visual
 
 <h2>University of Utah School of Medicine</h2>
 
-
 <br><br><br><br>
 
 <h2>`r fontawesome::fa("envelope", "white")`   howard.mann\@utah.edu</h2>
 
 <h2>`r fontawesome::fa("link", "white")`   [howardmann.us](http://howardmann.us)</h2>
 
-![](images/UhealthLogo.png){.absolute top="350" right="100" width="300"}
----
+![](images/UhealthLogo.png){.absolute top="325" right="300" width="350"}
 
 ## Instructions for viewing the cases
-<br>
 
-- use your keyboard arrow keys to navigate through the slides
-- you can view the presentation in full screen mode by hitting `f` on your keyboard; hit `esc` to exit
-- mouse-click through the Tabs; start and end each case with the `Presentation` Tab
-- there is a menu ![](images/menu-icon.jpg){.center} icon bottom-left that you can use to navigate as well.
-- please volunteer to discuss a case(s) during the conference!
+<br> <br>
 
-
+::: {style="font-size: 1.1em; text-align: center"}
+-   use your keyboard arrow keys to navigate through the slides
+-   you can view the presentation in full screen mode by hitting `f` on your keyboard; hit `esc` to exit
+-   mouse-click through the Tabs; start and end each case with the `Presentation` Tab
+-   there is a menu ![](images/menu-icon.jpg){.center} icon bottom-left that you can use to navigate as well.
+-   please volunteer to discuss a case(s) during the conference!
+:::
 
 ## Case one
 
@@ -78,6 +79,20 @@ Discuss...
 :::
 :::
 
+### Explanation
+
+The lesion was removed and is an [*Ectopic Thymoma*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6949883/).
+
+A solitary *solid* lesion in this location is a conundrum. It's not a typical location for an enlarged lymph node, for example.
+
+It may be impossible to precisely determine its origin, for example, mediastinum or pleural membrane.
+
+<br>
+
+``` default
+A thymoma typically develops in the retrosternal, anterior mediastinum — except when it doesn't!
+```
+
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
 
@@ -89,8 +104,6 @@ Discuss...
 An observer noticed rightward deviation of the trachea on chest radiography and an abnormal right mediastinal-lung interface.
 
 A CT was performed.
-
-
 
 ### CT
 
@@ -105,10 +118,22 @@ Hint: There is no differential diagnosis.
 
 ::: {.column width="50%"}
 ![](images/CT-2a.jpg){width="100%"}
-
-
 :::
 :::
+
+### Explanation
+
+This is typical of intra-thoracic extension of a goiter --- from the left thyroid lobe in this instance.
+
+It demonstrates an admixture of regions of relatively high attenuation --- iodine-containing tissue --- and low attenuation. The latter may be attributed to processes of "degeneration": cystic regions; prior hemorrhage; fibrotic regions.
+
+Dystrophic calcifications are present --- common in multinodular goiter.
+
+<br>
+
+``` default
+A diagnosis -- ectopic thyroid tissue -- may be made even if there is no connection with a thyroid lobe.
+```
 
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
@@ -136,6 +161,24 @@ Address the following questions one at a time in your response:
 
 ![](images/CXR-3.jpg){width="90%" fig-align="center"}
 
+### Explanation
+
+::: columns
+::: {.column width="40%"}
+-   The presence of the *hilum overlay* sign permits the localization of the lesion to the posterior, paraspinal mediastinum.
+-   A mass arising from the posterior pleura (such as a solitary fibrous tumor) may produce the same findings.
+-   A pulmonary mass of this size would very likely displace adjacent pulmonary vessels.
+:::
+
+::: {.column width="60%"}
+![](images/mri.jpg){width="100%" fig-align="center"}
+
+[The imaging findings on MRI are typical of a nerve sheath tumor---Schwannoma.]{style="color:grey"}
+
+[Reference: Crist, et al. *Magnetic Resonance Imaging Appearance of Schwannomas from Head to Toe: A Pictorial Review.* J Clin Imaging Sci. 2017; 7: 38.]{style="font-size: 22px;"}
+:::
+:::
+
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
 
@@ -161,6 +204,42 @@ Again, address the following one at a time in your response:
 ### CT
 
 ![](images/CT-4.jpg){fig-align="center"}
+
+### Explanation
+
+::: columns
+::: {.column width="54%"}
+Diagnosis: *Paraganglioma*
+
+-   a para-aortic mediastinal mass is present
+-   intense contrast-enhancement^1^ of it---except in its center---is present
+
+<br>
+
+``` default
+Key points  
+
+- mediastinal paragangliomas usually originate from 
+para-aortic (middle mediastinum) and para-vertebral
+(posterior mediastinum) sympathetic chain ganglia  
+
+- most are not "functioning" lesions  
+
+- they are typically very vascular tumors
+```
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="44%"}
+![](images/zellballen.jpg){width="80%"}
+
+[Epithelioid cells with oval to round nuclei are arranged in nests/clusters known as zellballen (cell ball). *An extensive network of branching sinusoidal vessels intervenes between the nests of tumor cells^1^.*]{style="font-size: 24px;"}
+
+[Source: [Gardner, J.](https://kikoxp.com/posts/15107/public)]{style="font-size: 22px;"}
+:::
+:::
 
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
@@ -192,6 +271,22 @@ Review the CT and address the following one at a time in your response:
 
 ![](images/CT-5.jpg)
 
+### Explanation
+
+::: columns
+::: {.column width="40%"}
+Diagnosis: *Spontaneous (sporadic) necrosis of mediastinal fat*.
+
+-   the location in this case is typical
+-   a small pleural effusion is present, a common concurrent finding
+-   this is analogous to the entity of *epiploic appendagitis* in the abdomen
+:::
+
+::: {.column width="60%"}
+![](images/5a.jpg){width="90%" fig-align="center"}
+:::
+:::
+
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
 
@@ -218,6 +313,23 @@ If you could see the patient, you would observe this:
 
 ![](images/CT-6.jpg){fig-align="center"}
 
+### Explanation
+
+::: columns
+::: {.column width="50%"}
+Diagnosis: *True Thymic Hyperplasia*
+
+-   substantial thymic tissue is present, *without* rounded, mass-like morphology [⟶]{style="color: red"}
+-   a known association with Grave's disease.
+-   further evaluation with chemical-shift MRI (to establish the presence of internal fat) is not usually necessary
+-   aberrant origin of the right subclavian artery is an unrelated finding
+:::
+
+::: {.column width="50%"}
+<br> ![](images/6a.jpg){width="90%" fig-align="center"}
+:::
+:::
+
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
 
@@ -241,8 +353,28 @@ Persistent chest pain in a 28-year-old patient.
 -   if this were a male instead, what should be further evaluated by means of physical exam and an ultrasound as part of the work-up?
 :::
 
-::: {.column width="60%"}
+::: {.column width="4%"}
+:::
+
+::: {.column width="56%"}
 ![](images/CXR-7.jpg){width="100%" fig-align="center"}
+:::
+:::
+
+### Explanation
+
+::: columns
+::: {.column width="60%"}
+Findings on radiography
+
+-   [the opacity effaces normal left supra-azygos (right paratracheal) and left supra-aortic mediastinal-lung interfaces; the distal aortic arch (knob) is not effaced]{style="font-size: 28px;"}
+-   [the trachea is narrowed]{style="font-size: 28px;"}
+-   [thus substantial superior and anterior mediastinal tumor mass is present, traversing the thoracic inlet]{style="font-size: 28px;"}
+-   [a lymphoma is by far the most likely explanation; a primary or metastatic germ cell tumor is a consideration---in a male, a scrotal examination and testicular ultrasound should be performed]{style="font-size: 28px;"}
+:::
+
+::: {.column width="40%"}
+*Hodgkin Lymphoma* ![](images/hodgkin.jpg){width="70%" fig-align="center"}
 :::
 :::
 
@@ -268,11 +400,27 @@ The radiograph is not available for review.
 
 What is *the* diagnosis ?
 
-(A Differential Diagnosis is not relevant.)
+(A differential diagnosis is not relevant.)
 :::
 
 ::: {.column width="70%"}
 ![](images/CT-8.jpg){width="100%" fig-align="center"}
+:::
+:::
+
+### Explanation
+
+::: columns
+::: {.column width="60%"}
+Findings
+
+-   ascites is present [a]{style="color: red"}
+-   a small hemidiaphragm defect is present at the Foramen of Morgagni [⟶]{style="color: red"}
+-   ascitic fluid has passed through this defect to accumulate in a hernia sac at the right cardiophrenic angle
+:::
+
+::: {.column width="40%"}
+![](images/ascites.jpg){width="70%" fig-align="center"}
 :::
 :::
 
@@ -302,10 +450,32 @@ View also the image in the next Tab.
 
 ![](images/CT-9-zoomed.jpg){width="60%" fig-align="center"}
 
+### Explanation
+
+::: columns
+::: {.column width="60%"}
+Findings
+
+-   small amounts of fluid are present in the mediastinum in the lower pre-tracheal...
+-   and subcarinal mediastinum, where a tiny amount of gas is present [⟶]{style="color: red"}
+-   the findings suggest the possibility of post-procedure infection...
+-   unless you become aware that the surgeon packed this area with [Surgicel® Fibrillar](https://www.jnjmedtech.com/en-US/product/surgicel-fibrillar-absorbable-hemostat) as a hemostatic agent. It holds onto fluid and air for some time.
+
+Go figure...It's a gotcha!
+:::
+
+::: {.column width="40%"}
+<br>
+
+![](images/subcarinal-fluid.jpg){width="100%" fig-align="center"}
+:::
+:::
+
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
 
 ## Case ten
+
 ::: panel-tabset
 ### Presentation
 
@@ -317,15 +487,32 @@ Offer one---very likely---diagnosis.
 
 ![](images/CXR-10.jpg){width="65%" fig-align="center"}
 
+### Explanation
+
+::: columns
+::: {.column width="40%"}
+Findings
+
+-   enlarged mediastinal and hilar lymph nodes are present [\*]{style="color: red"}
+-   the most likely explanation for this distribution in an asymptomatic patient---by far--- is *Sarcoidosis*
+:::
+
+::: {.column width="60%"}
+<br>
+
+![](images/CXR-nodes.jpg){width="90%" fig-align="center"}
+:::
+:::
 
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
 
 ## Case eleven
+
 ::: panel-tabset
 ### Presentation
 
-This patient reports dysphagia of years-long duration.
+This patient reports dysphagia of yearslong duration.
 
 Describe the findings and suggest the most likely diagnosis.
 
@@ -335,11 +522,32 @@ What (old-fashioned) procedure would you suggest to verify your diagnosis ?
 
 ![](images/CXR-11.jpg){width="60%" fig-align="center"}
 
+### Explanation
+
+::: columns
+::: {.column width="40%"}
+Yes, the findings are subtle!
+
+-   an abnormal mediastinum-lung interface [⟶]{style="color: red"}
+-   air-distention of the upper esophagus [⟶]{style="color: yellow"}
+:::
+
+::: {.column width="30%"}
+![](images/dilated-esophagus.jpg){width="100%" fig-align="center"}
+:::
+
+::: {.column width="30%"}
+[Contrast esophagram]{.underline}
+
+![](images/esophagram.jpg){width="100%" fig-align="center"} *Esophageal achalasia*
+:::
+:::
 
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
 
 ## Case twelve
+
 ::: panel-tabset
 ### Presentation
 
@@ -357,16 +565,33 @@ The CT was done after someone described an abnormality on a radiographic examina
 ::: {.column width="40%"}
 ![](images/CT-12.jpg){width="100%"}
 
-Is there really a Differential Diagnosis ?
+Is there really a differential diagnosis ?
 :::
 :::
 
+### Explanation
 
+::: columns
+::: {.column width="40%"}
+Most-relevant finding: The para-cardiac lesion is a water-containing structure [w]{style="color: red"}
+
+This, and its location, enables a confident diagnosis: *Pericardial cyst*
+
+They may occur on the left side also!
+
+It it were located in the retro-sternal, anterior mediastinum, describe it as a *Thymic cyst*.
+:::
+
+::: {.column width="60%"}
+![](images/water.jpg){width="100%" fig-align="center"}
+:::
+:::
 
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
 
 ## Case thirteen
+
 ::: panel-tabset
 ### Presentation
 
@@ -389,14 +614,31 @@ It's the last case!
 
 ::: {.column width="60%"}
 ![](images/CT-13.jpg){width="80%" fig-align="center"}
-
-
 :::
 :::
 
+### Explanation
 
+::: columns
+::: {.column width="60%"}
+Findings
+
+-   on radiography, it's hard to know whether it's in the lung or mediastinum
+-   the key finding on CT is the presence of intra-lesional fat [f]{style="color: red"}
+-   this lesion typically manifests on CT as a heterogeneous anterior mediastinal mass containing soft-tissue, fluid, fat, or calcium/bone, or any combination of the four
+-   the location in this case is, of course, unusual
+:::
+
+::: {.column width="40%"}
+![](images/teratoma-fat.jpg){width="80%" fig-align="center"} <br> [*Benign Mature Teratoma*](https://pubmed.ncbi.nlm.nih.gov/9308448/)
+:::
+:::
 
 <!----------------------------- CLOSE PANELSET ----------------------------->
 :::
 
+#  {background-iframe="my-iframe/index.html"}
 
+::: {style="font-size: 8em; color: black; text-align: center"}
+We're done
+:::
